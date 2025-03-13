@@ -12,6 +12,7 @@ const config: HardhatUserConfig = {
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : []
     },
   },
+  
   etherscan: {
     apiKey: process.env.ARBISCAN_API_KEY,
     customChains: [
